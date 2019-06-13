@@ -357,10 +357,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HBLogin_Example/Pods-HBLogin_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HBLogin/HBLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/HBNetWorking/HBNetWorking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HBLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HBNetWorking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

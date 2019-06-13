@@ -7,6 +7,7 @@
 //
 
 #import "HBViewController.h"
+#import "HBLogin.h"
 
 @interface HBViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    HBLogin *login = [[HBLogin alloc] init];
+    [login needToLogin];
 }
 
 - (void)didReceiveMemoryWarning

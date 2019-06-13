@@ -1,0 +1,6 @@
+framework module HBLogin {
+  umbrella header "HBLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}
